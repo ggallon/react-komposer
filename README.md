@@ -183,6 +183,18 @@ const options = {
 const BlogPostContainer = compose(postDataLoader, options)(BlogPost);
 ```
 
+### Making refs optional
+
+> By default, this is true.
+
+React doesn't support **refs** for stateless functional components (SFCs), and starting from next major version, it will warn about it.
+It possible to option out of setting child ref, so that **compose** can be used with SFCs:
+
+```js
+const options = {
+  withRef: false
+};
+
 ## Performance
 
 Performance is really important when building a real world apps. React Komposer comes with few ways to tune the performance. Let's discuss.
