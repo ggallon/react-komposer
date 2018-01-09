@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.2.0, 2018-01-09
+## v2.0.1, 2018-01-09
 * Freeze the versions of the dependencies packages
 * Fix typo on dataLoader features test
 * support npm >= 3
