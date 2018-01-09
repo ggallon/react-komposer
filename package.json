@@ -1,6 +1,6 @@
 {
   "name": "@ggallon/react-komposer",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Generic way to compose data containers for React.",
   "repository": {
     "type": "git",
