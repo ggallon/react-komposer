@@ -10,7 +10,7 @@ Feed data into React components by composing containers. <br/>
 - [Installation](#installation)
 - [Simple Example](#simple-example)
 - [Other Core Functionalities](#other-core-functionalities)
-  - [For React >=16.0 making refs optional](#for-react->=v16.0-making-refs-optional)
+  - [For React >=16.0 making refs optional](#for-react-160-making-refs-optional)
 	- [Subscribing to data](#subscribing-to-data)
 	- [Show Loading screen](#show-loading-screen)
 	- [Handling errors](#handling-errors)
