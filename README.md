@@ -13,6 +13,7 @@ Feed data into React components by composing containers. <br/>
 	- [Subscribing to data](#subscribing-to-data)
 	- [Show Loading screen](#show-loading-screen)
 	- [Handling errors](#handling-errors)
+	- [Making refs optional](#making-refs-optional)
 - [Performance](#performance)
 - [Set Defaults](#set-defaults)
 - [Passing an Environment (Like Dependency Injection)](#passing-an-environment-like-dependency-injection)
@@ -194,6 +195,7 @@ It possible to option out of setting child ref, so that **compose** can be used 
 const options = {
   withRef: false
 };
+```
 
 ## Performance
 
