@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.4, 2018-01-11
+* Make refs optional. PR: [#166](https://github.com/arunoda/react-komposer/pull/166)
+
 ## v2.0.3, 2018-01-09
 * README removed broken links
 
