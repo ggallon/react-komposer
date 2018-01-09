@@ -92,8 +92,6 @@ import ReactDOM from 'react-dom';
 ReactDOM.render(<BlogPostContainer id='post-one' />, document.body);
 ```
 
-[**Play with this example.**](http://www.webpackbin.com/4J6Z-fDlf)
-
 ## Other Core Functionalities
 
 Now we know how to load data to a component using React Komposer. Let's have a look at our other core functionalities.
@@ -133,8 +131,6 @@ function postDataLoader(props, onData) {
 
 Here we are calling the **onData** callback for every one second.  We've also returned a function from where it'll be used to clear the resources allocated by the subscription when the container unmounted.
 
-[**Play with this example.**](http://www.webpackbin.com/Vk2AEfPez)
-
 ### Show Loading screen
 
 It'll take a bit of time to load data from the server. So, we usually show a loading screen.
@@ -148,8 +144,6 @@ const options = {
 };
 const BlogPostContainer = compose(postDataLoader, options)(BlogPost);
 ```
-
-**[Play with this example.](http://www.webpackbin.com/Vk_5lQ_xG)**
 
 We show the loading screen until you provide a data object to the onData function. Have a look at the following data loader:
 
@@ -188,8 +182,6 @@ const options = {
 };
 const BlogPostContainer = compose(postDataLoader, options)(BlogPost);
 ```
-
-**[Play with this example.](http://www.webpackbin.com/Nk-4vmOgf)**
 
 ## Performance
 
