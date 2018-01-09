@@ -10,6 +10,7 @@ Feed data into React components by composing containers. <br/>
 - [Installation](#installation)
 - [Simple Example](#simple-example)
 - [Other Core Functionalities](#other-core-functionalities)
+  - [For React >=16.0 making refs optional](#for-react-160-making-refs-optional)
 	- [Subscribing to data](#subscribing-to-data)
 	- [Show Loading screen](#show-loading-screen)
 	- [Handling errors](#handling-errors)
@@ -131,6 +132,20 @@ function postDataLoader(props, onData) {
 
 Here we are calling the **onData** callback for every one second.  We've also returned a function from where it'll be used to clear the resources allocated by the subscription when the container unmounted.
 
+### For React >=16.0 making refs optional
+
+> By default, this is true.
+
+React >= v16.0 doesn't support **refs** for stateless functional components (SFCs) and it will warn about it.
+It possible to option out of setting child ref, so that **compose** can be used with SFCs:
+
+```js
+const options = {
+  withRef: false
+};
+const BlogPostContainer = compose(postDataLoader, options)(BlogPost);
+```
+
 ### Show Loading screen
 
 It'll take a bit of time to load data from the server. So, we usually show a loading screen.
@@ -182,18 +197,6 @@ const options = {
 };
 const BlogPostContainer = compose(postDataLoader, options)(BlogPost);
 ```
-
-### Making refs optional
-
-> By default, this is true.
-
-React doesn't support **refs** for stateless functional components (SFCs), and starting from next major version, it will warn about it.
-It possible to option out of setting child ref, so that **compose** can be used with SFCs:
-
-```js
-const options = {
-  withRef: false
-};
 
 ## Performance
 
