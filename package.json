@@ -1,10 +1,10 @@
 {
-  "name": "react-komposer",
+  "name": "@ggallon/react-komposer",
   "version": "2.0.0",
   "description": "Generic way to compose data containers for React.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kadirahq/react-komposer.git"
+    "url": "https://github.com/ggallon/react-komposer.git"
   },
   "license": "MIT",
   "scripts": {
@@ -18,38 +18,38 @@
     "publish-storybook": "bash .scripts/publish_storybook.sh"
   },
   "devDependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "babel-polyfill": "^6.13.0",
-    "babel-preset-react-app": "^0.2.1",
-    "babel-cli": "^6.14.0",
-    "babel-core": "^6.14.0",
-    "babel-plugin-transform-runtime": "^6.15.0",
-    "eslint": "^3.6.0",
-    "babel-eslint": "^6.1.2",
-    "eslint-config-airbnb": "^12.0.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.3.0",
-    "mocha": "^3.0.2",
-    "chai": "^3.5.0",
-    "sinon": "^1.17.6",
-    "enzyme": "^2.2.0",
-    "react-addons-test-utils": "^15.3.2",
-    "jsdom": "^9.5.0"
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "6.1.2",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-react-app": "0.2.1",
+    "chai": "3.5.0",
+    "enzyme": "2.9.1",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.10.3",
+    "jsdom": "9.12.0",
+    "mocha": "3.5.3",
+    "react": "15.6.2",
+    "react-addons-test-utils": "15.6.2",
+    "react-dom": "15.6.2",
+    "sinon": "1.17.7"
   },
   "peerDependencies": {
-    "react": "^0.14.7 || ^15.0.0"
+    "react": "^0.14.7 || ^15.0.0 || ^16.0.0"
   },
   "dependencies": {
-    "babel-runtime": "^6.11.6",
-    "hoist-non-react-statics": "^1.2.0",
-    "lodash.pick": "^4.4.0",
-    "react-stubber": "^1.0.0",
-    "shallowequal": "^0.2.2"
+    "babel-runtime": "6.26.0",
+    "hoist-non-react-statics": "1.2.0",
+    "lodash.pick": "4.4.0",
+    "react-stubber": "1.0.0",
+    "shallowequal": "0.2.2"
   },
   "main": "dist/index.js",
   "engines": {
-    "npm": "^3.0.0"
+    "npm": ">=3.0.0"
   }
 }
