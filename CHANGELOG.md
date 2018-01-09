@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.2, 2018-01-09
+use @ggallon/react-stubber
+
 ## v2.0.1, 2018-01-09
 * Freeze the versions of the dependencies packages
 * Fix typo on dataLoader features test
