@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.6, 2018-01-11
+* The `shallowequal` npm package has been updated to version 1.0.2
+* The `hoist-non-react-statics` npm package has been updated to version 2.3.1
+* Remove unused scripts
+* CONTRIBUTING update
+* README update
+
 ## v2.0.5, 2018-01-10
 * README update
 
