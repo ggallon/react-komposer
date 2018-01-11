@@ -11,9 +11,9 @@ Feed data into React components by composing containers. <br/>
 - [Simple Example](#simple-example)
 - [Other Core Functionalities](#other-core-functionalities)
   - [For React >=16.0 making refs optional](#for-react-160-making-refs-optional)
-	- [Subscribing to data](#subscribing-to-data)
-	- [Show Loading screen](#show-loading-screen)
-	- [Handling errors](#handling-errors)
+  - [Subscribing to data](#subscribing-to-data)
+  - [Show Loading screen](#show-loading-screen)
+  - [Handling errors](#handling-errors)
 - [Performance](#performance)
 - [Set Defaults](#set-defaults)
 - [Passing an Environment (Like Dependency Injection)](#passing-an-environment-like-dependency-injection)
@@ -469,7 +469,7 @@ function getTrackerLoader(reactiveMapper) {
     let trackerCleanup = null;
     const handler = Tracker.nonreactive(() => {
       return Tracker.autorun(() => {
-      	// assign the custom clean-up function.
+        // assign the custom clean-up function.
         trackerCleanup = reactiveMapper(props, onData, env);
       });
     });
