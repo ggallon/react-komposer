@@ -1,6 +1,4 @@
-# React Komposer
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e4c90b06f80646b5900d1625f2049c74)](https://app.codacy.com/app/ggallon/react-komposer?utm_source=github.com&utm_medium=referral&utm_content=ggallon/react-komposer&utm_campaign=badger)
+# React Komposer [![GitHub release](https://img.shields.io/github/release/ggallon/react-komposer.svg)](https://github.com/ggallon/react-komposer/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd4da2bff03a490faddf9355c9db91e5)](https://www.codacy.com/app/ggallon/react-komposer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ggallon/react-komposer&amp;utm_campaign=Badge_Grade)
 
 Feed data into React components by composing containers. <br/>
 (Works with any kind of data store whether it's Redux, Promises, RxJX, MobX or anything else)
