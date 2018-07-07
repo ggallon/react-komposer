@@ -1,4 +1,5 @@
 # React Komposer [![GitHub release](https://img.shields.io/github/release/ggallon/react-komposer.svg)](https://github.com/ggallon/react-komposer/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd4da2bff03a490faddf9355c9db91e5)](https://www.codacy.com/app/ggallon/react-komposer?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ggallon/react-komposer&amp;utm_campaign=Badge_Grade)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fggallon%2Freact-komposer.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fggallon%2Freact-komposer?ref=badge_shield)
 
 Feed data into React components by composing containers. <br/>
 (Works with any kind of data store whether it's Redux, Promises, RxJX, MobX or anything else)
@@ -491,3 +492,7 @@ function reactiveMapper(props, onData) {
 
 const Container = compose(getTrackerLoader(reactiveMapper))(UIComponent);
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fggallon%2Freact-komposer.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fggallon%2Freact-komposer?ref=badge_large)
